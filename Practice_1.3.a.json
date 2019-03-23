@@ -1,0 +1,127 @@
+{
+  "company": [
+    {
+      "department": "Development",
+      "depId": "001",
+      "employees": [
+        {
+          "empId": "001",
+          "lastName": "DevManLN",
+          "firstName": "DevManFN",
+          "birthDate": "01.01.2000",
+          "position": "Department Manager",
+          "skills": [
+            {
+              "skill": "Communication"
+            },
+            {
+              "skill": "Solitaire:)"
+            }
+          ],
+          "managerId": "0"
+        },
+        {
+          "empId": "002",
+          "lastName": "DevLN",
+          "firstName": "DevFN",
+          "birthDate": "01.01.2000",
+          "position": "Developer",
+          "skills": [
+            {
+              "skill": "Sleeps only 2 hours per day"
+            },
+            {
+              "skill": "Overtimes without concerns"
+            },
+            {
+              "skill": "Works for food"
+            }
+          ],
+          "managerId": "001"
+        },
+        {
+          "empId": "003",
+          "lastName": "QALN",
+          "firstName": "QAFN",
+          "birthDate": "01.01.2000",
+          "position": "Tester",
+          "skills": [
+            {
+              "skill": "A software tester walks"
+            },
+            {
+              "skill": "int a bar and then"
+            },
+            {
+              "skill": "runs into a bar..."
+            },
+            {
+              "skill": "strolls into a bar..."
+            },
+            {
+              "skill": "gallops into the bar..."
+            },
+            {
+              "skill": "saunters into the bar..."
+            }
+          ],
+          "managerId": "001"
+        }
+      ]
+    },
+    {
+      "department": "Accounting",
+      "depId": "002",
+      "employees": [
+        {
+          "empId": "004",
+          "lastName": "AccManLN",
+          "firstName": "AccManFN",
+          "birthDate": "01.01.2000",
+          "position": "Department Manager",
+          "skills": [
+            {
+              "skill": "See the skills from Dev Department Manager"
+            },
+            {
+              "skill": "plus Bilot :)"
+            }
+          ],
+          "managerId": "0"
+        },
+        {
+          "empId": "005",
+          "lastName": "AccLN1",
+          "firstName": "AccFN1",
+          "birthDate": "01.01.2000",
+          "position": "Accountant",
+          "skills": [
+            {
+              "skill": "Knows nothing"
+            },
+            {
+              "skill": "But who cares as long as she is a hot chick..."
+            }
+          ],
+          "managerId": "004"
+        },
+        {
+          "empId": "006",
+          "lastName": "AccLN2",
+          "firstName": "AccFN2",
+          "birthDate": "01.01.1900",
+          "position": "Accountant",
+          "skills": [
+            {
+              "skill": "Old as a mammoth"
+            },
+            {
+              "skill": "But who cares as long as she does all the job"
+            }
+          ],
+          "managerId": "004"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+  <department name="Development" depId="001">
+    <employee empId="001">
+      <lastName>DevManLN</lastName>
+      <firstName>DevManFN</firstName>
+      <birthDate>01.11.2000</birthDate>
+      <position>Department Manager</position>
+      <skills>
+        <skill>Communication</skill>
+        <skill>Solitaire :)</skill>
+      </skills>
+      <managerId>0</managerId>
+    </employee>
+    <employee empId="002">
+      <lastName>DevLN</lastName>
+      <firstName>DevFN</firstName>
+      <birthDate>01.01.2000</birthDate>
+      <position>Developer</position>
+      <skills>
+        <skill>Sleeps only 2 hours per day</skill>
+        <skill>Overtimes without concerns</skill>
+        <skill>Works for food</skill>
+      </skills>
+      <managerId>001</managerId>
+    </employee>
+    <employee empId="003">
+      <lastName>QALN</lastName>
+      <firstName>QAFN</firstName>
+      <birthDate>01.01.2000</birthDate>
+      <position>Tester</position>
+      <skills>
+        <skill>A software tester walks</skill>
+        <skill>into a bar and then</skill>
+        <skill>runs into the bar...</skill>
+        <skill>strolls into the bar...</skill>
+        <skill>gallops into the bar...</skill>
+        <skill>saunters into the bar...</skill>
+      </skills>
+      <managerId>001</managerId>
+    </employee>
+  </department>
+  <department name="Accounting" depId="002">
+    <employee empId="004">
+      <lastName>DepManAccLN</lastName>
+      <firstName>DepManAccFN</firstName>
+      <birthDate>01.01.2000</birthDate>
+      <position>Department Manager</position>
+      <skills>
+        <skill>See the skills from Dev Department Manager</skill>
+        <skill>plus Bilot :)</skill>
+      </skills>
+      <managerId>0</managerId>
+    </employee>
+    <employee empId="005">
+      <lastName>Acc1LN</lastName>
+      <firstName>Acc2FN</firstName>
+      <birthDate>01.01.2000</birthDate>
+      <position>Accountant</position>
+      <skills>
+        <skill>Knows nothing</skill>
+        <skill>But who cares as long as she is a hot chick...</skill>
+      </skills>
+      <managerId>004</managerId>
+    </employee>
+    <employee empId="006">
+      <lastName>Acc2LN</lastName>
+      <firstName>Acc2FN</firstName>
+      <birthDate>01.01.1900</birthDate>
+      <position>Accountant</position>
+      <skills>
+        <skill>Old as a mammoth</skill>
+        <skill>But who cares as long as she does all the job</skill>
+      </skills>
+      <managerId>004</managerId>
+    </employee>
+  </department>
+  <department name="DevOps" depId="003">
+    <employee empId="007">
+      <firstName>DevOpsManFN</firstName>
+      <lastName>DevOpsManLN</lastName>
+      <birthDate>01.01.2000</birthDate>
+      <position>Department Manager</position>
+      <skills>
+        <skill>See previous managers</skill>
+        <skill>Does nothing, but who cares as long as client is paying...</skill>
+      </skills>
+      <managerId>000</managerId>
+    </employee>
+    <employee empId="008">
+      <firstName>DevOpsFN</firstName>
+      <lastName>DevOpsLN</lastName>
+      <birthDate>01.01.2000</birthDate>
+      <position>DevOps</position>
+      <skills>
+        <skill>Nobody knows what he does, but who cares as long as client is paying...</skill>
+      </skills>
+      <managerId>007</managerId>
+    </employee>
+  </department>
+</company>
